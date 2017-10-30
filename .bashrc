@@ -28,6 +28,12 @@ alias cl='clear'
 alias lm='ls -laxo | more'
 alias rm='rm -i'
 
+
+export CUDA_HOME=/usr/local/cuda-8.0
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64:$LD_LIBRARY_PATH
+export PATH=${CUDA_HOME}/bin:${PATH}
+
+
 export ISCE_INSTALL_ROOT=/home/scott/isce
 export PYTHONPATH=$ISCE_INSTALL_ROOT:$PYTHONPATH
 export ISCE_HOME=$ISCE_INSTALL_ROOT/isce
