@@ -51,4 +51,5 @@ export ISCE_INSTALL_ROOT=/home/scott/isce
 export PYTHONPATH=$ISCE_INSTALL_ROOT:$PYTHONPATH
 export ISCE_HOME=$ISCE_INSTALL_ROOT/isce
 export PATH=$ISCE_HOME/applications:$PATH
+export LD_LIBRARY_PATH=/usr/local/lib:$LB_LIBRARY_PATH
 
